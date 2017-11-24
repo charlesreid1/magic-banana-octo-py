@@ -7,7 +7,39 @@ Also see the [Tutorial on Packaging and Distributing Projects](https://packaging
 
 ## module contents
 
+Import the module:
 
+``
+import banana_octo_py as bop
+```
+
+The `core.py` file defines a `hello_core()` that is imported 
+at the module level:
+
+```
+bop.hello_core()
+```
+
+The `utils.py` file defines a `hello_utils()` that is imported
+as a `utils` submodule:
+
+```
+bop.hello_utils()
+```
+
+The `sub` submodule defines a `hello_submodule()` function 
+when it is imported:
+
+```
+bop.sub.hello_submodule()
+```
+
+There are further subcomponents of `sub`, specifically `one` and `two`:
+
+```
+bop.sub.hello_submodule_one()
+bop.sub.hello_submodule_two()
+```
 
 ## building
 
