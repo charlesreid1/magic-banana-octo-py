@@ -67,3 +67,6 @@ nosetets
 ```
 
 This will run all tests in the `tests/` directory.
+
+The `.travis.yml` file runs the Travis tests by using tox to set up/configure Travis.
+
