@@ -2,14 +2,15 @@
 # help confirm pull requests to this project.
 
 language: python
-
-env:
-  - TOXENV=py27
-  - TOXENV=py36
-
-install: pip install tox
-
-script: tox
-
+python:
+-   "2.7"
+-   "3.3"
+-   "3.4"
+-   "3.5"
+-   "3.6"
+install:
+-   pip install tox
+script:
+-   tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d .)
 notifications:
   email: false
