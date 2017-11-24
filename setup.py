@@ -17,11 +17,10 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-try:
-    import pypandoc
-    long_description = pypandoc.convert('README.md', 'rst')
-except(IOError, ImportError):
-    long_description = open('README.md').read()
+### import pypandoc
+### long_description = pypandoc.convert('README.md', 'rst')
+### long_description = open('README.md').read()
+long_description = 'this is a simple Python project, and this is a long description'
 
 setup(
     name='banana_octo_py',
