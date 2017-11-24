@@ -9,7 +9,7 @@ Also see the [Tutorial on Packaging and Distributing Projects](https://packaging
 
 Import the module:
 
-``
+```
 import banana_octo_py as bop
 ```
 
