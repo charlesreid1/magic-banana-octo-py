@@ -7,6 +7,8 @@ Also see the [Tutorial on Packaging and Distributing Projects](https://packaging
 
 ## module contents
 
+Module was assembled following the [modules](https://docs.python.org/3/tutorial/modules.html#packages) documentation.
+
 Import the module:
 
 ```
