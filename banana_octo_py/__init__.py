@@ -1,3 +1,4 @@
+from . import utils
 
 def main():
     """Entry point for the application script"""
