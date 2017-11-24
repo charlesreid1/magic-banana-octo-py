@@ -1,5 +1,7 @@
 # banana-octo-py: a simple Python project
 
+<img src="https://travis-ci.org/charlesreid1/banana-octo-py.svg?branch=master" href="https://travis-ci.org/charlesreid1/banana-octo-py">
+
 This simple project provides an example of how to create a package
 following the [Python Packaging User Guide](https://packaging.python.org).
 
