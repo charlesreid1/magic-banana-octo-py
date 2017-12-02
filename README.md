@@ -52,14 +52,16 @@ bop.sub.hello_submodule_two()
 To build with Python 2:
 
 ```
-python2 setup.py install --user
+python2 setup.py install
 ```
 
 To build with Python 3:
 
 ```
-python3 setup.py install --user --prefix=
+python3 setup.py install
 ```
+
+Optional: specify your python as needed - e.g., with conda in a Travis container, or on Homebrew, or etc.
 
 ## testing
 
@@ -72,6 +74,6 @@ nosetets
 
 This will run all tests in the `tests/` directory.
 
-The `.travis.yml` file runs the Travis tests by using the [tox test automation library](https://tox.readthedocs.io/en/latest/)
-to set up and configure tests for Travis.
+## continuous integration (CI) with travis
 
+The `.travis.yml` file runs the Travis tests by using the [tox test automation library](https://tox.readthedocs.io/en/latest/). tox sets up and configures tests for different python versions/compilations/system configurations on Travis.
