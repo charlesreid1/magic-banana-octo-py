@@ -1,9 +1,16 @@
 import banana_octo_py as bop
 
+"""
+Smoke Test: 
+
+Can we import the library without errors?
+Are functions at the module level available?
+Are functions at the submodule level available?
+"""
+
 
 def test_core():
     assert bop.hello_core() == "Hello world! This is the core.py file"
-
 
 def test_utils():
     assert bop.utils.hello_utils() == "Hello world! This is the utils.py file"
