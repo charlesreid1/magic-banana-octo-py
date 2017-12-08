@@ -22,18 +22,18 @@ here = path.abspath(path.dirname(__file__))
 long_description = 'this is a simple Python project, and this is a long description'
 
 setup(
-    name='banana_octo_py',
+    name='magic_banana_octo_py',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.0',
 
-    description='a simple Python project',
+    description='a simple Jupyter/IPython notebook extension',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/charlesreid1/banana-octo-py',
+    url='https://github.com/charlesreid1/magic-banana-octo-py',
 
     # Author details
     author='charles reid',
@@ -44,7 +44,7 @@ setup(
 
     ## You can just specify the packages manually here if your project is
     ## simple. Or you can use find_packages().
-    #packages=(['banana_octo_py']),
+    #packages=(['magic_banana_octo_py']),
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
@@ -70,7 +70,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['banana_octo_py/package_data.dat'],
+        'sample': ['magic_banana_octo_py/package_data.dat'],
     },
 
     ### # Although 'package_data' is the preferred approach, in some case you may

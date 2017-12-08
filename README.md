@@ -1,51 +1,32 @@
-# banana-octo-py: a simple Python project
+# magic-banana-octo-py: a simple Jupyter/IPython notebook extension 
 
-<a href="https://travis-ci.org/charlesreid1/banana-octo-py">
-<img src="https://travis-ci.org/charlesreid1/banana-octo-py.svg?branch=master" />
+<a href="https://travis-ci.org/charlesreid1/magic-banana-octo-py">
+<img src="https://travis-ci.org/charlesreid1/magic-banana-octo-py.svg?branch=master" />
 </a>
 
 This simple project provides an example of how to create a package
 following the [Python Packaging User Guide](https://packaging.python.org).
 
-Also see the [Tutorial on Packaging and Distributing Projects](https://packaging.python.org/en/latest/distributing.html).
+See the [Tutorial on Packaging and Distributing Projects](https://packaging.python.org/en/latest/distributing.html).
+
+See the [Distributing Extensions](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)
+page of the documentation.
+
+This notebook extension adds a "Download as tarball" file option 
+to the notebook.
 
 ## module contents
 
-Module was assembled following the [modules](https://docs.python.org/3/tutorial/modules.html#packages) documentation.
+See [the documentation](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html)
+for source of example.
 
-Import the module:
-
-```
-import banana_octo_py as bop
-```
-
-The `core.py` file defines a `hello_core()` that is imported 
-at the module level:
+Import the module from Jupyter notebook:
 
 ```
-bop.hello_core()
+import magic_banana_octo_py as mb
 ```
 
-The `utils.py` file defines a `hello_utils()` that is imported
-as a `utils` submodule:
 
-```
-bop.hello_utils()
-```
-
-The `sub` submodule defines a `hello_submodule()` function 
-when it is imported:
-
-```
-bop.sub.hello_submodule()
-```
-
-There are further subcomponents of `sub`, specifically `one` and `two`:
-
-```
-bop.sub.hello_submodule_one()
-bop.sub.hello_submodule_two()
-```
 
 ## building
 
