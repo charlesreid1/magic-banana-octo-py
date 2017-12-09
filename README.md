@@ -1,7 +1,7 @@
-# magic-banana-octo-py: a simple Jupyter/IPython notebook extension 
+# magic-octo-py: a simple Jupyter/IPython notebook extension 
 
-<a href="https://travis-ci.org/charlesreid1/magic-banana-octo-py">
-<img src="https://travis-ci.org/charlesreid1/magic-banana-octo-py.svg?branch=master" />
+<a href="https://travis-ci.org/charlesreid1/magic-octo-py">
+<img src="https://travis-ci.org/charlesreid1/magic-octo-py.svg?branch=master" />
 </a>
 
 This simple project provides an example of how to create a package
@@ -23,7 +23,7 @@ for source of example.
 Import the module from Jupyter notebook:
 
 ```
-import magic_banana_octo_py as mb
+import magic_octo_py as mop
 ```
 
 
