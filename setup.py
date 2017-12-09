@@ -1,10 +1,12 @@
 """
-BANANA OCTO PY
-A simple Python package
+MAGIC OCTO PY
+A simple Jupyter/IPython magic package
 
 See:
 https://packaging.python.org/en/latest/distributing.html
 https://github.com/pypa/sampleproject
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html
 """
 
 # Always prefer setuptools over distutils
@@ -22,7 +24,7 @@ here = path.abspath(path.dirname(__file__))
 long_description = 'this is a simple Python project, and this is a long description'
 
 setup(
-    name='magic_banana_octo_py',
+    name='magic_octo_py',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -33,7 +35,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/charlesreid1/magic-banana-octo-py',
+    url='https://github.com/charlesreid1/magic-octo-py',
 
     # Author details
     author='charles reid',
@@ -44,7 +46,7 @@ setup(
 
     ## You can just specify the packages manually here if your project is
     ## simple. Or you can use find_packages().
-    #packages=(['magic_banana_octo_py']),
+    #packages=(['magic_octo_py']),
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
@@ -70,7 +72,8 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['magic_banana_octo_py/package_data.dat'],
+        'magic_octo_py': ['static/smoke.css',
+                          'static/index.js']
     },
 
     ### # Although 'package_data' is the preferred approach, in some case you may
